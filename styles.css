@@ -247,6 +247,10 @@ header .description {
     font-size: .9rem;
 }
 
+.error-container a {
+    color: inherit;
+}
+
 /* Loader */
 
 .loader-container {

@@ -92,7 +92,7 @@ const getErrorMessage = (err) =>
             ? `<h4 class="reason">Sorry, I couldn't find it.</h4>
                 <p class="suggestion">Please check your spelling or try again later.</p>` 
             : `<h4 class="reason">${err}</h4>
-                <p class="suggestion">Please issue a new bug report on GitHub.</p>` }
+                <p class="suggestion">Please create a new issue on <a href="https://github.com/ThuHtooSan/dictionary-app/issues">GitHub</a>.</p>` }
     </section>`;
 
 // play pronunciation audio files
